@@ -16,120 +16,120 @@ reg setvalue {top.uut.reset} 0;
 run 10 ns;
 
 
-memory init -instance top.uut.ConvA1.DP_A1.convA1_IFM1.IFM_Memory  -content_file  files_vel/input/image_4977_float.txt
-memory init -instance top.uut.ConvA1.DP_A1.convA1_unit_1.WM.Memory -content_file files_vel/memory/memory_float/layer_1_mem_0.txt
-memory init -instance top.uut.ConvA1.DP_A1.bm.Memory	-content_file files_vel/memory/memory_float/layer_1_mem_bias.txt
+memory init -instance top.uut.ConvA1.DP_A1.convA1_IFM1.IFM_Memory  -content_file  files_vel/input/image_4977_float.txt -format verilogBin
+memory init -instance top.uut.ConvA1.DP_A1.convA1_unit_1.WM.Memory -content_file files_vel/memory/memory_float/layer_1_mem_0.txt -format verilogBin
+memory init -instance top.uut.ConvA1.DP_A1.bm.Memory	-content_file files_vel/memory/memory_float/layer_1_mem_bias.txt -format verilogBin
 
 
-memory init -instance top.uut.ConvB.DP_B.convB_unit_1.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_0.txt
-memory init -instance top.uut.ConvB.DP_B.convB_unit_2.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_1.txt
-memory init -instance top.uut.ConvB.DP_B.convB_unit_3.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_2.txt
+memory init -instance top.uut.ConvB.DP_B.convB_unit_1.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_0.txt -format verilogBin
+memory init -instance top.uut.ConvB.DP_B.convB_unit_2.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_1.txt -format verilogBin
+memory init -instance top.uut.ConvB.DP_B.convB_unit_3.WM.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_2.txt -format verilogBin
 
-memory init -instance top.uut.ConvB.DP_B.bm1.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_0.txt
-memory init -instance top.uut.ConvB.DP_B.bm2.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_1.txt
-memory init -instance top.uut.ConvB.DP_B.bm3.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_2.txt
+memory init -instance top.uut.ConvB.DP_B.bm1.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_0.txt -format verilogBin
+memory init -instance top.uut.ConvB.DP_B.bm2.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_1.txt -format verilogBin
+memory init -instance top.uut.ConvB.DP_B.bm3.Memory  -content_file files_vel/memory/memory_float/layer_2_mem_bias_2.txt -format verilogBin
 
-memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_1.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_0.txt
-memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_2.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_1.txt
-memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_3.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_2.txt
+memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_1.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_0.txt -format verilogBin
+memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_2.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_1.txt -format verilogBin
+memory init -instance top.uut.ConvA2.DP_A2.convA2_unit_3.WM.Memory  -content_file files_vel/memory/memory_float/layer_3_mem_2.txt -format verilogBin
 
-memory init -instance top.uut.ConvA2.DP_A2.bm.Memory -content_file files_vel/memory/memory_float/layer_3_mem_bias.txt
+memory init -instance top.uut.ConvA2.DP_A2.bm.Memory -content_file files_vel/memory/memory_float/layer_3_mem_bias.txt -format verilogBin
 
-memory init -instance top.uut.FC1.DP.W1.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_0.txt
-memory init -instance top.uut.FC1.DP.W2.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_1.txt
-memory init -instance top.uut.FC1.DP.W3.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_2.txt
-memory init -instance top.uut.FC1.DP.W4.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_3.txt
-memory init -instance top.uut.FC1.DP.W5.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_4.txt
-memory init -instance top.uut.FC1.DP.W6.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_5.txt
-memory init -instance top.uut.FC1.DP.W7.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_6.txt
-memory init -instance top.uut.FC1.DP.W8.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_7.txt
-memory init -instance top.uut.FC1.DP.W9.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_8.txt
-memory init -instance top.uut.FC1.DP.W10.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_9.txt
-memory init -instance top.uut.FC1.DP.W11.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_10.txt
-memory init -instance top.uut.FC1.DP.W12.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_11.txt
-memory init -instance top.uut.FC1.DP.W13.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_12.txt
-memory init -instance top.uut.FC1.DP.W14.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_13.txt
-memory init -instance top.uut.FC1.DP.W15.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_14.txt
-memory init -instance top.uut.FC1.DP.W16.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_15.txt
-memory init -instance top.uut.FC1.DP.W17.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_16.txt
-memory init -instance top.uut.FC1.DP.W18.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_17.txt
-memory init -instance top.uut.FC1.DP.W19.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_18.txt
-memory init -instance top.uut.FC1.DP.W20.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_19.txt
-memory init -instance top.uut.FC1.DP.W21.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_20.txt
-memory init -instance top.uut.FC1.DP.W22.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_21.txt
-memory init -instance top.uut.FC1.DP.W23.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_22.txt
-memory init -instance top.uut.FC1.DP.W24.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_23.txt
-memory init -instance top.uut.FC1.DP.W25.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_24.txt
-memory init -instance top.uut.FC1.DP.W26.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_25.txt
-memory init -instance top.uut.FC1.DP.W27.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_26.txt
-memory init -instance top.uut.FC1.DP.W28.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_27.txt
-memory init -instance top.uut.FC1.DP.W29.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_28.txt
-memory init -instance top.uut.FC1.DP.W30.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_29.txt
-memory init -instance top.uut.FC1.DP.W31.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_30.txt
-memory init -instance top.uut.FC1.DP.W32.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_31.txt
-memory init -instance top.uut.FC1.DP.W33.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_32.txt
-memory init -instance top.uut.FC1.DP.W34.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_33.txt
-memory init -instance top.uut.FC1.DP.W35.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_34.txt
-memory init -instance top.uut.FC1.DP.W36.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_35.txt
-memory init -instance top.uut.FC1.DP.W37.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_36.txt
-memory init -instance top.uut.FC1.DP.W38.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_37.txt
-memory init -instance top.uut.FC1.DP.W39.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_38.txt
-memory init -instance top.uut.FC1.DP.W40.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_39.txt
-memory init -instance top.uut.FC1.DP.W41.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_40.txt
-memory init -instance top.uut.FC1.DP.W42.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_41.txt
-memory init -instance top.uut.FC1.DP.W43.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_42.txt
-memory init -instance top.uut.FC1.DP.W44.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_43.txt
-memory init -instance top.uut.FC1.DP.W45.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_44.txt
-memory init -instance top.uut.FC1.DP.W46.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_45.txt
-memory init -instance top.uut.FC1.DP.W47.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_46.txt
-memory init -instance top.uut.FC1.DP.W48.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_47.txt
-memory init -instance top.uut.FC1.DP.W49.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_48.txt
-memory init -instance top.uut.FC1.DP.W50.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_49.txt
-memory init -instance top.uut.FC1.DP.W51.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_50.txt
-memory init -instance top.uut.FC1.DP.W52.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_51.txt
-memory init -instance top.uut.FC1.DP.W53.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_52.txt
-memory init -instance top.uut.FC1.DP.W54.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_53.txt
-memory init -instance top.uut.FC1.DP.W55.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_54.txt
-memory init -instance top.uut.FC1.DP.W56.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_55.txt
-memory init -instance top.uut.FC1.DP.W57.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_56.txt
-memory init -instance top.uut.FC1.DP.W58.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_57.txt
-memory init -instance top.uut.FC1.DP.W59.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_58.txt
-memory init -instance top.uut.FC1.DP.W60.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_59.txt
-memory init -instance top.uut.FC1.DP.W61.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_60.txt
-memory init -instance top.uut.FC1.DP.W62.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_61.txt
-memory init -instance top.uut.FC1.DP.W63.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_62.txt
-memory init -instance top.uut.FC1.DP.W64.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_63.txt
-memory init -instance top.uut.FC1.DP.W65.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_64.txt
-memory init -instance top.uut.FC1.DP.W66.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_65.txt
-memory init -instance top.uut.FC1.DP.W67.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_66.txt
-memory init -instance top.uut.FC1.DP.W68.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_67.txt
-memory init -instance top.uut.FC1.DP.W69.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_68.txt
-memory init -instance top.uut.FC1.DP.W70.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_69.txt
-memory init -instance top.uut.FC1.DP.W71.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_70.txt
-memory init -instance top.uut.FC1.DP.W72.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_71.txt
-memory init -instance top.uut.FC1.DP.W73.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_72.txt
-memory init -instance top.uut.FC1.DP.W74.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_73.txt
-memory init -instance top.uut.FC1.DP.W75.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_74.txt
-memory init -instance top.uut.FC1.DP.W76.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_75.txt
-memory init -instance top.uut.FC1.DP.W77.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_76.txt
-memory init -instance top.uut.FC1.DP.W78.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_77.txt
-memory init -instance top.uut.FC1.DP.W79.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_78.txt
-memory init -instance top.uut.FC1.DP.W80.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_79.txt
-memory init -instance top.uut.FC1.DP.W81.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_80.txt
-memory init -instance top.uut.FC1.DP.W82.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_81.txt
-memory init -instance top.uut.FC1.DP.W83.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_82.txt
-memory init -instance top.uut.FC1.DP.W84.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_83.txt
+memory init -instance top.uut.FC1.DP.W1.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_0.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W2.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_1.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W3.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_2.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W4.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_3.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W5.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_4.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W6.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_5.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W7.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_6.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W8.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_7.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W9.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_8.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W10.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_9.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W11.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_10.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W12.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_11.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W13.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_12.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W14.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_13.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W15.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_14.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W16.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_15.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W17.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_16.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W18.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_17.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W19.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_18.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W20.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_19.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W21.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_20.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W22.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_21.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W23.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_22.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W24.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_23.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W25.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_24.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W26.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_25.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W27.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_26.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W28.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_27.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W29.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_28.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W30.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_29.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W31.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_30.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W32.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_31.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W33.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_32.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W34.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_33.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W35.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_34.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W36.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_35.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W37.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_36.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W38.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_37.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W39.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_38.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W40.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_39.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W41.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_40.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W42.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_41.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W43.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_42.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W44.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_43.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W45.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_44.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W46.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_45.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W47.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_46.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W48.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_47.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W49.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_48.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W50.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_49.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W51.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_50.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W52.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_51.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W53.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_52.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W54.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_53.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W55.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_54.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W56.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_55.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W57.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_56.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W58.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_57.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W59.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_58.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W60.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_59.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W61.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_60.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W62.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_61.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W63.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_62.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W64.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_63.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W65.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_64.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W66.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_65.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W67.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_66.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W68.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_67.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W69.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_68.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W70.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_69.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W71.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_70.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W72.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_71.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W73.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_72.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W74.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_73.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W75.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_74.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W76.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_75.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W77.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_76.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W78.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_77.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W79.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_78.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W80.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_79.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W81.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_80.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W82.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_81.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W83.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_82.txt -format verilogBin
+memory init -instance top.uut.FC1.DP.W84.Memory  -content_file files_vel/memory/memory_float/layer_4_mem_83.txt -format verilogBin
 
-memory init -instance top.uut.FC2.DP.W1.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_0.txt
-memory init -instance top.uut.FC2.DP.W2.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_1.txt
-memory init -instance top.uut.FC2.DP.W3.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_2.txt
-memory init -instance top.uut.FC2.DP.W4.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_3.txt
-memory init -instance top.uut.FC2.DP.W5.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_4.txt
-memory init -instance top.uut.FC2.DP.W6.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_5.txt
-memory init -instance top.uut.FC2.DP.W7.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_6.txt
-memory init -instance top.uut.FC2.DP.W8.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_7.txt
-memory init -instance top.uut.FC2.DP.W9.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_8.txt
-memory init -instance top.uut.FC2.DP.W10.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_9.txt
+memory init -instance top.uut.FC2.DP.W1.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_0.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W2.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_1.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W3.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_2.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W4.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_3.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W5.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_4.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W6.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_5.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W7.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_6.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W8.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_7.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W9.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_8.txt -format verilogBin
+memory init -instance top.uut.FC2.DP.W10.Memory  -content_file files_vel/memory/memory_float/layer_5_mem_9.txt -format verilogBin
 
 reg force {top.uut.FC1.DP.FIFO1.fifo_data_out_1} 32'b10111100001100010100100110000101;
 reg force {top.uut.FC1.DP.FIFO1.fifo_data_out_2} 32'b00111101011101110111100111101011;
